@@ -12,16 +12,15 @@ public class Main {
         System.out.println(miCoche.Puertas);
     }
     //Primera parte:
-    //
     //Crear una función con tres parámetros que sean números que se suman entre sí.
     public static void sumarymostrar(int valor1, int valor2, int valor3) {
 
-        System.out.println(valor1 + valor2 + valor3); // Muestra por pantalla la suma de los 3 valores
+        System.out.println(valor1 + valor2 + valor3);
 
     }
     public  static  int sumarydevolver(int valor1,int valor2,int valor3){
 
-        return valor1+valor2+valor3; //Devuelve el valor de la suma de los 3 valores
+        return valor1+valor2+valor3;
     }
 }
 //Segunda parte:
