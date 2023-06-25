@@ -12,7 +12,7 @@ public class BuclesMain {
         String[] nombres = {"Jorge,", "Adrian,", "Pablo,", "Paula"};
         String texto = "";
         for(String nombre : nombres){
-            texto += nombre;
+            texto.append(nombre);
         }
         System.out.println("El texto concatenado es : "+ texto);
     }
